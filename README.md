@@ -35,12 +35,15 @@
   To power the API, you'll need to develop a core module that processes the news articles data
   and finds the top 10 noun chunks you need to return to the Flask server. It will have the following
   general components:
+    
     1. Noun Chunk extraction engine: You'll need to write a method for finding noun chunks in
     each article. You only need to focus on bigrams and trigrams for now. Unigrams and
     >3-grams can be left out.
+
     2. Finding top noun chunks: Here, ideally a model (TFIDF/CV) is best suited to find the best
     noun chunks among all the ones extracted in each article. Brownie points for innovating
-    with models or approaches in this section.
+    with models or approaches  in this section.
+    
     3. Eliminating bad noun chunks: Sometimes, you'll get almost duplicate noun chunks or
     ones that do not make sense. You'll need a small post-processing engine to discard or
     deduplicate noun chunks.
@@ -63,14 +66,23 @@ approach incorporates NER in a smart way, you get bonus points.
   models, Flask server, and a test script. The GitHub repository should be structured as:
   
       ○ src
+      
         ■ nc_extraction.py*
+        
         ■ nc_extraction_handler.py (optional)
+        
         ■ server.py*
+        
         ■ utils.py (optional)
+        
         ■ test_request.py (optional)
+        
       ○ models
+      
         ■ top_nc_model.pkl
+        
       ○ requirements.txt
+      
       ○ ReadME.md
   
   2. *Do not upload any data or CSV file into GitHub
@@ -80,12 +92,19 @@ approach incorporates NER in a smart way, you get bonus points.
   test_request.py script in your repository to test the API locally via Python.
   
   4. Coding Instructions and General Guidelines:
+
+
       ○ Use object oriented programming. Load your models into memory when you
       instantiate the class and write methods for the different steps in your pipeline.
+      
       ○ Write docstrings for your methods.
+      
       ○ Format the code properly using a formatter in your IDE.
+      
       ○ Explicitly list the data types of your method input and output in your code.
+      
       ○ Assign variable names intelligibly.
+      
       ○ Adhere to the outlined repository structure as closely as possible.
 
 All the best and do reach out in case you have any questions. Cheers!
