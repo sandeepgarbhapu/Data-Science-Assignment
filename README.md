@@ -67,19 +67,19 @@ approach incorporates NER in a smart way, you get bonus points.
   
       ○ src
       
-        ■ nc_extraction.py*
-        
-        ■ nc_extraction_handler.py (optional)
-        
-        ■ server.py*
-        
-        ■ utils.py (optional)
-        
-        ■ test_request.py (optional)
+          ■ nc_extraction.py*
+
+          ■ nc_extraction_handler.py (optional)
+
+          ■ server.py*
+
+          ■ utils.py (optional)
+
+          ■ test_request.py (optional)
         
       ○ models
       
-        ■ top_nc_model.pkl
+          ■ top_nc_model.pkl
         
       ○ requirements.txt
       
