@@ -4,14 +4,23 @@
   This test was created by Aidetic Software Pvt. Ltd. for Data Science Hiring. Anyone can take this test.
   
   Instructions:
+  
     1. Fork this repository.
+    
     2. Write your code and commit it to your personal fork.
+    
     3. Important: Keep you fork private and share it with the following Email IDs:
+    
             a) abhishek@aidetic.in
+            
             b) yadvendra@aidetic.in
+            
             c) ketan@aidetic.in
+            
             d) mehul@aidetic.in
+            
     4. Fill this form: https://forms.gle/H3SbJ7CfU9bgw8gH8
+    
     5. Once you have submitted the form someone from our time will reach out to you for the next steps.
 
 # Overview:
