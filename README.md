@@ -62,16 +62,16 @@ approach incorporates NER in a smart way, you get bonus points.
   1. The final deliverable is a GitHub repository containing all files for the processing pipeline,
   models, Flask server, and a test script. The GitHub repository should be structured as:
   
-  ○ src
-    ■ nc_extraction.py*
-    ■ nc_extraction_handler.py (optional)
-    ■ server.py*
-    ■ utils.py (optional)
-    ■ test_request.py (optional)
-  ○ models
-    ■ top_nc_model.pkl
-  ○ requirements.txt
-  ○ ReadME.md
+      ○ src
+        ■ nc_extraction.py*
+        ■ nc_extraction_handler.py (optional)
+        ■ server.py*
+        ■ utils.py (optional)
+        ■ test_request.py (optional)
+      ○ models
+        ■ top_nc_model.pkl
+      ○ requirements.txt
+      ○ ReadME.md
   
   2. *Do not upload any data or CSV file into GitHub
   
@@ -80,12 +80,12 @@ approach incorporates NER in a smart way, you get bonus points.
   test_request.py script in your repository to test the API locally via Python.
   
   4. Coding Instructions and General Guidelines:
-    ○ Use object oriented programming. Load your models into memory when you
-    instantiate the class and write methods for the different steps in your pipeline.
-    ○ Write docstrings for your methods.
-    ○ Format the code properly using a formatter in your IDE.
-    ○ Explicitly list the data types of your method input and output in your code.
-    ○ Assign variable names intelligibly.
-    ○ Adhere to the outlined repository structure as closely as possible.
+      ○ Use object oriented programming. Load your models into memory when you
+      instantiate the class and write methods for the different steps in your pipeline.
+      ○ Write docstrings for your methods.
+      ○ Format the code properly using a formatter in your IDE.
+      ○ Explicitly list the data types of your method input and output in your code.
+      ○ Assign variable names intelligibly.
+      ○ Adhere to the outlined repository structure as closely as possible.
 
 All the best and do reach out in case you have any questions. Cheers!
